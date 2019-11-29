@@ -5,7 +5,7 @@ import Timer from "./components/Timer";
 function App() {
   return (
     <div className="App">
-      <Timer />
+      <Timer start={Date.now()} />
     </div>
   );
 }
