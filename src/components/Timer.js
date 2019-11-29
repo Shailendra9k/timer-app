@@ -21,9 +21,9 @@ class Timer extends Component {
     let clock = Math.round(this.state.clock / 1000);
     return (
       <div>
-        <p>You have been on this site since: </p> <br />
+        <h2>You have been on this site since: </h2> <br />
         <span>{clock}</span>
-        <p>Seconds.</p>
+        <h2>Seconds.</h2>
       </div>
     );
   }
