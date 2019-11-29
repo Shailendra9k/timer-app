@@ -4,6 +4,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Project Introduction
+
+The main purpose of this project is to calculate total time spend here on this site by the viewer. It calculates since the viewer come to this site and shows total time of stay over there.
+
+### Time period calculation
+Here, these methods of date are used for calculation to time spend over it:
+
+` Date.now () - new Date()
+`
+### Use componentDidMount()
+
+A lifecycle method is used in order to setup the updating time and support to update in the dom. With this `setInterval() method ` is used which is continuously changign and support to in update.
+
+### Update and return
+
+A method called `this.setState ` is used to update the state initialized in constructor to zero. Finally, result is returned in normal number using `Math.round` so time should be displayed in milliseconds.  
+
+So, this app shows total spent time on this site in seconds.
+
+## Default Script
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
